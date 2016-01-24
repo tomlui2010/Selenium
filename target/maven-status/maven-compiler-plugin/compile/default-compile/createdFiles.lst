@@ -1,0 +1,14 @@
+com\thomas\domain\pages\Sharepage.class
+com\thomas\domain\pages\Commercialpage.class
+com\thomas\domain\pages\Agentspage.class
+com\thomas\domain\pages\Placeanadpage.class
+com\thomas\domain\pages\Homepriceguidepage.class
+com\thomas\domain\pages\Soldpage.class
+com\thomas\domain\pages\Homeloanpage.class
+com\thomas\domain\pages\Newspage.class
+com\thomas\domain\pages\Buypage.class
+com\thomas\domain\pages\Rentpage.class
+com\thomas\domain\pages\Advicepage.class
+com\thomas\domain\pages\Suburbprofilespage.class
+com\thomas\domain\util\ScreenshotIt.class
+com\thomas\domain\pages\NewHomespage.class

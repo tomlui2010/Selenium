@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite1]">
+  <test name="Nopackage(failed)">
+    <classes>
+      <class name="com.thomas.domain.testcases.VerifyTopNavlnks">
+        <methods>
+          <include name="VerifyTopNavlnks_Homepriceguide"/>
+          <include name="VerifyTopNavlnks_Share"/>
+          <include name="VerifyTopNavlnks_Rent"/>
+          <include name="setup"/>
+          <include name="VerifyTopNavlnks_Sold"/>
+          <include name="VerifyTopNavlnks_News"/>
+          <include name="VerifyTopNavlnks_Suburbprofiles"/>
+          <include name="VerifyTopNavlnks_HomeLoans"/>
+          <include name="VerifyTopNavlnks_Placeanad"/>
+          <include name="VerifyTopNavlnks_NewHomes"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.thomas.domain.testcases.VerifyTopNavlnks -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
