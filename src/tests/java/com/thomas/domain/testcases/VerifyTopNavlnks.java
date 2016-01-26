@@ -67,12 +67,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(we);
+				
+				advicepage.validateAdvicepageTitle();	
+				
+				advicepage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
-				fetchnClick.pageLoadWait(5);
-				
-				advicepage.validateAdvicepageTitle();				
+				fetchnClick.pageLoadWait(5);					
 				
 
 			} else {
@@ -103,12 +105,16 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(we);
+				
+				buypage.validateBuypageTitle();	
+				
+				buypage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
 				fetchnClick.pageLoadWait(5);
 				
-				buypage.validateBuypageTitle();				
+							
 				
 
 			} else {
@@ -139,13 +145,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(we);
+				
+				rentpage.validateRentpageTitle();
+				
+				rentpage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
 				fetchnClick.pageLoadWait(5);
-				
-				rentpage.validateRentpageTitle();				
-				
 
 			} else {
 
@@ -175,12 +182,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(we);
+				
+				newHomespage.validateNewHomespageTitle();
+				
+				newHomespage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
 				fetchnClick.pageLoadWait(5);
-				
-				newHomespage.validateNewHomespageTitle();				
 				
 
 			} else {
@@ -211,12 +220,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(we);
+				
+				soldpage.validateSoldpageTitle();
+				
+				soldpage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
 				fetchnClick.pageLoadWait(5);
-				
-				soldpage.validateSoldpageTitle();				
 				
 
 			} else {
@@ -247,12 +258,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(we);
+				
+				commercialpage.validateCommercialpageTitle();
+				
+				commercialpage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
 				fetchnClick.pageLoadWait(5);
-				
-				commercialpage.validateCommercialpageTitle();				
 				
 
 			} else {
@@ -283,12 +296,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(we);
+				
+				newspage.validateNewspageTitle();
+				
+				newspage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
 				fetchnClick.pageLoadWait(5);
-				
-				newspage.validateNewspageTitle();				
 				
 
 			} else {
@@ -319,12 +334,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(we);
+				
+				agentspage.validateAgentspageTitle();	
+				
+				agentspage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
-				fetchnClick.pageLoadWait(5);
-				
-				agentspage.validateAgentspageTitle();				
+				fetchnClick.pageLoadWait(5);			
 				
 
 			} else {
@@ -351,12 +368,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(lnk_TopNav.getText());
+				
+				sharepage.validateSharepageTitle();
+				
+				sharepage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
-				fetchnClick.pageLoadWait(5);
-				
-				sharepage.validateSharepageTitle();				
+				fetchnClick.pageLoadWait(5);				
 				
 
 			} else {
@@ -382,12 +401,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(lnk_TopNav.getText());
+				
+				homepriceguidepage.validatehomepriceguidepageTitle();
+				
+				homepriceguidepage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
-				fetchnClick.pageLoadWait(5);
-				
-				homepriceguidepage.validatehomepriceguidepageTitle();				
+				fetchnClick.pageLoadWait(5);				
 				
 
 			} else {
@@ -413,13 +434,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(lnk_TopNav.getText());
+				
+				suburbprofilespage.validatesuburbprofilespageTitle();
+				
+				suburbprofilespage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
 				fetchnClick.pageLoadWait(5);
-				
-				suburbprofilespage.validatesuburbprofilespageTitle();				
-				
 
 			} else {
 
@@ -444,12 +466,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(lnk_TopNav.getText());
+				
+				homeloanpage.validateHomeloanpageTitle();
+				
+				homeloanpage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
-				fetchnClick.pageLoadWait(5);
-				
-				homeloanpage.validateHomeloanpageTitle();				
+				fetchnClick.pageLoadWait(5);				
 				
 
 			} else {
@@ -475,12 +499,14 @@ public class VerifyTopNavlnks {
 				lnk_TopNav.click();
 
 				fetchnClick.ClickTopNavLinks(lnk_TopNav.getText());
+				
+				placeanadpage.validatePlaceanadpageTitle();	
+				
+				placeanadpage.VerifyAllLinks(driver);
 
 				fetchnClick.NavBack();
 
 				fetchnClick.pageLoadWait(5);
-				
-				placeanadpage.validatePlaceanadpageTitle();				
 				
 
 			} else {

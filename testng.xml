@@ -1,9 +1,24 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-  
-<suite name="Suite1" verbose="1" >
-    <test name="Nopackage" >
-        <classes>
-            <class name="com.thomas.domain.testcases.VerifyTopNavlnks" />
-        </classes>
-    </test>
+<suite name="Sample Test Suite" verbose="1">
+	<test name="Method Test Cases">
+		<classes>
+			<class name="com.thomas.domain.testcases.VerifyTopNavlnks">
+				<methods>
+					<include name="VerifyTopNavlnks_Advice" />
+					<exclude name="VerifyTopNavlnks_Buy" />
+					<exclude name="VerifyTopNavlnks_Rent" />
+					<exclude name="VerifyTopNavlnks_NewHomes" />
+					<exclude name="VerifyTopNavlnks_Sold" />
+					<exclude name="VerifyTopNavlnks_Commercial" />
+					<exclude name="VerifyTopNavlnks_News" />
+					<exclude name="VerifyTopNavlnks_Agents" />
+					<exclude name="VerifyTopNavlnks_Share" />
+					<exclude name="VerifyTopNavlnks_Homepriceguide" />
+					<exclude name="VerifyTopNavlnks_Suburbprofiles" />
+					<exclude name="VerifyTopNavlnks_HomeLoans" />
+					<exclude name="VerifyTopNavlnks_Placeanad" />
+				</methods>
+			</class>
+		</classes>
+	</test>
 </suite>
